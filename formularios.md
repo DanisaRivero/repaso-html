@@ -24,8 +24,18 @@ El atributo `method` es el método con el que se envia la información al servid
 
 Atributo `name` sirve como 'variables', facilita el trabajo para los de backend
 
-* dialog
-* get = las variables de 'name' viajan por la url
-* post
+* dialog =
+* get = cuando envia la información al servidor, envía las variables por medio de la url y provoca un recargo de la página.
+* post =
 
 **El más usado por los desarrolladores backend es post**
+
+
+> ## **Tarea**
+* Crear un formulario
+
+
+Los requerimientos faltantes para un formulario son los siguientes:
+* maxlength = indica la cantidad máxima de carácteres por escribir.
+* minlength = indica la cantidad mínima de carácteres a escribir.
+* required = es la válidación de los inputs, hace que sea obligatorio llenarlo.

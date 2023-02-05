@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lexend:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+.titulos {
+  font-family: "Anton", sans-serif;
+  color: rgb(7, 158, 158);
+}
+
+hr {
+  margin: 10px 150px 40px 150px;
+}
+body {
+  background-color: #131b4f;
+  font-family: "Lexend", sans-serif;
+}
+
+nav {
+  background-color: #1f1e1e;
+  background-image: linear-gradient(
+    90deg,
+    #000000 8%,
+    #0d1e8f 56%,
+    #000000 99%
+  );
+  padding: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-family: "Lexend", sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(16, 100, 156);
+}
+.contenedor {
+  margin: 90px 20px 20px 20px;
+}
+.centrarForm {
+  display: flex;
+  justify-content: center;
+}
+form {
+  padding: 10px 30px 30px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  width: 400px;
+}
+form div {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0px 10px 20px;
+  font-family: "Anton", sans-serif;
+  color: rgb(7, 158, 158);
+  font-size: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 0px 20px;
+  border: 1px solid rgb(251, 255, 20);
+  border-radius: 5px;
+  box-shadow: 15px 16px 28px -1px rgba(16, 185, 172, 0.58);
+  -webkit-box-shadow: 15px 16px 28px -1px rgba(16, 185, 172, 0.58);
+  -moz-box-shadow: 15px 16px 28px -1px rgba(16, 185, 172, 0.58);
+}
+textarea {
+  box-shadow: 15px 16px 28px -1px rgba(16, 185, 172, 0.58);
+  -webkit-box-shadow: 15px 16px 28px -1px rgba(16, 185, 172, 0.58);
+  -moz-box-shadow: 15px 16px 28px -1px rgba(16, 185, 172, 0.58);
+  padding: 10px;
+  margin: 0px 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(233, 255, 31);
+}
+
+.btn {
+  padding: 1rem 2rem;
+  font-weight: 700;
+  background: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  border-bottom: 2px solid rgb(233, 255, 31);
+  border-right: 2px solid rgb(233, 255, 31);
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  transition-duration: 1s;
+  transition-property: border-top, border-left, border-bottom, border-right,
+    box-shadow;
+  
+}
+
+.btn:hover {
+  border-top: 2px solid rgb(48, 75, 245);
+  border-left: 2px solid rgb(48, 75, 245);
+  border-bottom: 2px solid #0d1e8f;
+  border-right: 2px solid #0d1e8f;
+  box-shadow: rgba(16, 185, 172, 0.58) 5px 5px, rgb(48, 75, 245, 0.58) 10px 10px,
+  #251ba3 15px 15px;
+}
+#boton{
+  margin-left: 20px;
+}

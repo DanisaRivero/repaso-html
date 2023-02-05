@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Danisa Rivero" />
+    <meta name="description" content="Formulario para contacto" />
+    <meta name="keywords" content="form, formulario, contacto, mensaje" />
+    <link rel="stylesheet" href="./css/miFormulario.css" />
+    <title>Contáctame</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Contacto</a>
+        <a href="#">Sobre nosotros</a>
+      </nav>
+    </header>
+    <main class="contenedor">
+      <h1 class="titulos">Formulario de contactos</h1>
+      <hr />
+      <section class="centrarForm">
+        <form class="borde">
+          <div>
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              name="nombre"
+              maxlength="30"
+              minlength="0"
+              placeholder="Ingrese su nombre"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="apellido">Apellido</label>
+            <input
+              type="text"
+              name="apellido"
+              maxlength="30"
+              minlength="0"
+              placeholder="Ingrese su apellido"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="correoElectronico">Correo electronico</label>
+            <input
+              type="email"
+              name="correoElectronico"
+              maxlength="50"
+              minlength="0"
+              placeholder="correo electronico"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="telefono">Teléfono</label>
+            <input
+              type="tel"
+              name="telefono"
+              placeholder="Ej: 3884491875"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="consulta">Consulta</label>
+            <textarea
+              name="consulta"
+              id=""
+              cols="30"
+              rows="5"
+              maxlength="100"
+              minlength="5"
+              placeholder="Escriba su mensaje :)"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" name="boton" class="btn titulos" id="boton">
+            Enviar
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

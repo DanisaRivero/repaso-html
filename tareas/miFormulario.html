@@ -7,7 +7,7 @@
     <meta name="author" content="Danisa Rivero" />
     <meta name="description" content="Formulario para contacto" />
     <meta name="keywords" content="form, formulario, contacto, mensaje" />
-    <link rel="stylesheet" href="./css/miFormulario.css" />
+    <link rel="stylesheet" href="../css/miFormulario.css" />
     <title>Contáctame</title>
   </head>
   <body>
@@ -53,7 +53,6 @@
               type="email"
               name="correoElectronico"
               maxlength="50"
-              minlength="0"
               placeholder="correo electronico"
               required
             />
@@ -62,9 +61,10 @@
           <div>
             <label for="telefono">Teléfono</label>
             <input
-              type="tel"
+              type="number"
               name="telefono"
               placeholder="Ej: 3884491875"
+              maxlength="15"
               required
             />
           </div>
@@ -77,7 +77,7 @@
               cols="30"
               rows="5"
               maxlength="100"
-              minlength="5"
+              minlength="10"
               placeholder="Escriba su mensaje :)"
               required
             ></textarea>

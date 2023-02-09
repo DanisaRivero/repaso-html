@@ -7,10 +7,24 @@
   <title>Video HTML</title>
 </head>
 <body>
+  <!--? Etiqueta video  -->
   <video width="320" height="240" controls>
-    <source src="https://www.yutub.com/html/movie.mp4">
-    <source src="https://www.yutub.com/html/movie.ogg">
+    <source src="https://www.yutub.com/html/movie.mp4" type="video.mp4">
+    <source src="https://www.yutub.com/html/movie.ogg" type="video.ogg">
     Tu navegador no soportó el elemento video
   </video>
+
+  <!-- ? Elemento audio -->
+  <section>
+    <audio controls>
+      <source src="horse.ogg" type="audio/ogg">
+      <source src="horse.mp3" type="audio/mp3">
+      Tu navegador no soportó el elemento audio, instale una versión más reciente
+    </audio>
+  </section>
+
+  <!-- ? Video desde youtube -->
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/GAOfw5hvOBg?list=RDMMK17df81RL9Y" title="Pra pra pra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 </body>
 </html>

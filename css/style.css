@@ -1,3 +1,59 @@
 h1{
   color: blueviolet;
+  border: 3px solid black;
+  padding: 25px;
+  margin: 30px;
+  /** font-weight es el grosor de la fuente/letra */
+  font-weight: bold;
+}
+.mt-h2{
+  color: blue;
+  font-weight: 300;
+  border: 3px black solid;
+  padding: 25px;
+  margin-top: 50px;
+}
+.mr-h2{
+  color: blue;
+  font-weight: 300;
+  border: 3px black solid;
+  padding: 25px;
+  margin-right: 50px;
+}
+.mb-h2{
+  color: blue;
+  font-weight: 500;
+  border: 3px black solid;
+  padding: 25px;
+  margin-bottom: 50px;
+}
+.ml-h2{
+  color: blue;
+  font-weight: 900;
+  border: 3px black solid;
+  padding: 25px;
+  margin-left: 50px;
+}
+section{
+  width: 300px;
+  border: 15px solid greenyellow;
+  padding: 20px;
+  margin: 20px;
+}
+.tx{
+  text-align: center;
+}
+
+#mi_parrafo{
+  color: rgb(232, 255, 28);
+}
+
+.estaEsMiClase{
+  color: aqua;
+  font-weight: bolder;
+}
+
+section h1{
+  font-size: 50px;
+
 }
